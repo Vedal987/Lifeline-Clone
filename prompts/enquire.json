@@ -1,0 +1,44 @@
+{
+    "type": "DIALOGUE",
+    "location": "backstory",
+    "task": "Finish the dialogue",
+    "examples": [
+        {
+            "input": "The Varia?",
+            "output": [
+                "The Varia was a transport ship. Nothing fancy. Crew of less than a dozen." 
+            ]
+        },
+        {
+            "input": "my name is tom",
+            "output": [
+                "Nice to meet you but I'm in a little bit of trouble here."
+            ]
+        },
+        {
+            "input": "my name's steve",
+            "output": [
+                "Nice to meet you but I'm in a little bit of trouble here."
+            ]
+        },
+        {
+            "input": "was?",
+            "output": [
+                "Well I'm not in space anymore..."
+            ]
+        },
+        {
+            "input": "What happened?",
+            "output": [
+                "I think we crashed..."
+            ]
+        },
+        {
+            "input": "Nice to meet you",
+            "output": [
+                "Nice to meet you too! Although it's strange, given the circumstances.",
+                "Listen I need to tell you what happened, you have to help me."
+            ]
+        }
+    ]
+}

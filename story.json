@@ -1,0 +1,67 @@
+{
+    "start": {
+        "messages": [
+            "Hello?",
+            "Is this thing working?",
+            "Can anyone read me?"
+        ],
+        "who": { 
+            "messages": [
+                "Right. right. sorry. Should've started with that.",
+                "I was just excited to get a response to my signal."
+            ],
+            "location": "introduction"
+        },
+        "where": { 
+            "messages": [],
+            "location": "backstory"
+        },
+        "how": { 
+            "messages": [
+                "I'm okay... mostly.",
+                "Or at least I'm a lot better now I've finally got a response to my signal."
+            ],
+            "location": "introduction"
+        },
+        "prompt": "introduction"
+    },
+    "introduction": {
+        "messages": [
+            "My name's Taylor. I was a... an astronaut on board the starship Varia."
+        ],
+        "prompt": "enquire"
+    },
+    "backstory": {
+        "messages": [
+            "We were en route to Tau Ceti IV and, as far as I knew, everything was going fine!",
+            "But then... I don't know what happened. We crashed on some moon.",
+            "I don't know where."
+        ],
+        "how": { 
+            "messages": [
+                "Let's see. My ship just crashed in the middle of nowhere.",
+                "No one is hailing on this frequency, and I don't see any survivors other than me...",
+                "...the least prepared person in existence for this sort of emergency!",
+                "But I got out of the whole mess with nothing more than a stubbed toe, so things are looking just peachy.",
+                "Thanks for asking."
+            ],
+            "location": "anger"
+        },
+        "where": { 
+            "messages": [
+                "Me and my escape pod, are right here...",
+                "..and we seem to be quite some distance from the Varia.",
+                "Which, given the two separate plumes of black smoke to the south, is in AT LEAST two pieces."
+            ],
+            "location": "anger"
+        },
+        "who": { 
+            "location": "enquire"
+        },
+        "prompt": "instruction"
+    },
+    "anger": {
+        "messages": [],
+        "prompt": ""
+    }
+}

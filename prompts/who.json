@@ -1,0 +1,38 @@
+{
+    "type": "QA",
+    "task": "Answer the questions about the following passage",
+    "context": "My name's Taylor Lance. I was an astronaut on board the starship Varia. I am a student who won a lottery to join this mission.",
+    "examples": [
+        {
+            "input": "who are you?",
+            "output": [
+                "My name's Taylor Lance. I was an astronaut on board the starship Varia."
+            ]
+        },
+        {
+            "input": "whats your job on board?",
+            "output": [
+                "I'm a student, I was never, ever meant to be without a trained supervisor by my side at any time.",
+                "So it's safe to say that this crash landing wasn't covered anywhere in my student handbook."
+            ]
+        },
+        {
+            "input": "are you a student?",
+            "output": [
+                "Yes, my number came up in a lottery of science students, and I got to join this mission."
+            ]
+        },
+        {
+            "input": "do you have any family?",
+            "output": [
+                "I did, back on Earth... but I'd rather not talk about it."
+            ]
+        },
+        {
+            "input": "who do you work for?",
+            "output": [
+                "I technically don't work for anyone, I'm a student who just won a lottery and got to join this mission."
+            ]
+        }
+    ]
+}

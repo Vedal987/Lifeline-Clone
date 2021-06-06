@@ -1,0 +1,40 @@
+{
+    "type": "DIALOGUE",
+    "location": "anger",
+    "task": "Finish the dialogue",
+    "examples": [
+        {
+            "input": "have you tried using a map?",
+            "output": [
+                "Yeah, that'd be a fantastic plan, if it weren't for the tiny problem that I, and my escape pod, are right here...",
+                "...whereas the astromap room is still in the Varia.",
+                "Which, given the two separate plumes of black smoke to the south, is in AT LEAST two pieces, nowhere near me.",
+                "So you'll forgive me if \"use a map\" isn't at the very top of my \"to do\" list."
+            ]
+        },
+        {
+            "input": "how do you not know?",
+            "output": [
+                "Why don't I know? Why don't I have this whole sector memorized, like any astronaut worth a damn would?",
+                "Because I'm a STUDENT, okay?",
+                "My number came up in a lottery of science students, and I got to join this mission.",
+                "I was on board the Varia running zero-G experiments on rats and lichens and stuff, all right?",
+                "I was never, ever meant to be without a trained supervisor by my side at any time."
+            ]
+        },
+        {
+            "input": "where's your ship?",
+            "output": [
+                "The ship is in two separate pieces nowhere near me...",
+                "How can I tell? It's something to do with the two giant plumes of black smoke to the south."
+            ]
+        },
+        {
+            "input": "do you need help",
+            "output": [
+                "Well, my ship (which is my only way of getting back) appears to be nowhere near me.",
+                "Which, given the two separate plumes of black smoke to the south, is in AT LEAST two pieces. So yes, I do need help."
+            ]
+        }
+    ]
+}

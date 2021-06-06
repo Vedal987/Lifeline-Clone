@@ -1,0 +1,42 @@
+{
+    "type": "DIALOGUE",
+    "location": "introduction",
+    "task": "Finish the dialogue",
+    "examples": [
+        {
+            "input": "Who is this?",
+            "output": [
+                "Right. right. sorry. Should've started with that.",
+                "I was just excited to get a response to my signal."
+            ]
+        },
+        {
+            "input": "I read you.",
+            "output": [
+                "Oh thank God! It's so good to have human contact!",
+                "It's been hours!"
+            ]
+        },
+        {
+            "input": "Hello",
+            "output": [
+                "Oh thank God! Hi! It's so good to have human contact.",
+                "It's been hours!"
+            ]
+        },
+        {
+            "input": "how are you",
+            "output": [
+                "I'm okay... mostly.",
+                "Or at least I'm a lot better now I've finally got a response to my signal."
+            ]
+        },
+        {
+            "input": "yes",
+            "output": [
+                "Oh thank God! It's so good to have human contact.",
+                "It's been hours!"
+            ]
+        }
+    ]
+}
